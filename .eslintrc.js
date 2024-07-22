@@ -19,7 +19,6 @@ module.exports = {
     },
     plugins: ['@typescript-eslint', 'prettier', 'etc'],
     rules: {
-        '@typescript-eslint/explicit-member-accessibility': 'warn',
         'no-var': 'warn',
         'no-extra-boolean-cast': 'off',
         'quote-props': ['warn', 'consistent'],
@@ -61,7 +60,6 @@ module.exports = {
                 ],
             },
         ],
-        '@typescript-eslint/explicit-function-return-type': ['warn', { allowExpressions: true }],
         'curly': 'warn',
         'prefer-const': 'warn',
         'etc/no-commented-out-code': 'warn',
